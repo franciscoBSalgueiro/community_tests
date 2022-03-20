@@ -6,7 +6,7 @@ if [[ $# -lt 2 ]]; then
 	echo "usage: $0 <relative_path_to_executable> <relative_path_to_tests_dir> <flags>"
 	echo "-v flag to display diff in the terminal"
 	echo "-c flag to remove generated result files"
-	echo "note: do not the -c option without -v"
+	echo "note: do not use the -c option without -v"
 	exit
 fi
 
