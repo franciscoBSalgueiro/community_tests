@@ -39,6 +39,6 @@ if [ "$3" == "-v" ]; then
 fi
 
 if [ "$4" == "-c" ]; then
-	rm $tests/*result
+	rm $PWD/$tests/*result
 fi
 
